@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Week 2 Assignment 2</title>
+    </head>
+    <body>
+        <!--An order list with roman numerals-->
+        <h2>Order List</h2>
+
+        <ol type="I">
+            <li>Javascript</li>
+            <li>Software Engineering in Test</li>
+            <li>Node.js</li>
+            <li>Express.js</li>
+            <li>MYSQL</li>
+            <li>Python</li>
+            <li>React</li>
+            <li>Django</li>
+        </ol>
+        <!--End of Ordered List with roman numerals-->
+
+        <!--Add an External Image-->
+        <h2>Embedding Image</h2>
+
+        <img
+            src="https://images.pexels.com/photos/2499699/pexels-photo-2499699.jpeg?auto=compress&cs=tinysrgb&w=800"
+            alt="Bali"
+            width="600"
+            height="600"
+        />
+        <!--End of Add an External Image-->
+
+        <!--Creating a table-->
+        <h2>Contact Table</h2>
+
+        <table border="2" cellspacing="0" cellpadding="12">
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td>Gatwiri Ireri</td>
+                <td>P.O Box, Jogoria, Kenya</td>
+                <td>070697799</td>
+                <td>gatwiriireri@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Ireri Kiguosh</td>
+                <td>566, Tharaka, Kenya</td>
+                <td>070691799</td>
+                <td>irerikiguongo@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Kawira Barine</td>
+                <td>789, Chogoria</td>
+                <td>071697799</td>
+                <td>kawirabarine@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Murithi ireri</td>
+                <td>300, Nairobi Kenya</td>
+                <td>070697797</td>
+                <td>murithiireri@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Mwendwa S.</td>
+                <td>67, Mombasa, Kenya</td>
+                <td>070697706</td>
+                <td>thetravellingtutor@gmail.com</td>
+            </tr>
+        </table>
+        <!--End of the table-->
+
+        <!--Registration Form-->
+        <h2>Registration Form</h2>
+
+        <form action="#" method="post">
+
+            <!--Name Field-->
+            <label for="name">Full Name:</label>
+            <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter your full name"
+                required
+            />
+            <br></br>
+
+
+            <!--Email Field-->
+            <label for="email">--Email:</label>
+            <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your --Email"
+                required
+            />
+
+
+            <!-- Password Field -->
+             <label for="password">Password:</label>
+             <input type="password" id="password" name="password" placeholder="Enter a strong password" required minlength="8">
+             <br><br>
+
+
+              <!-- Date of Birth Field -->
+               <label for="dob">Date of Birth:</label>
+               <input type="date" id="dob" name="dob" required>
+                <br><br> 
+
+
+                <!-- Dropdown (Country Selection) -->
+                <label for="country">Country:</label>
+                <select id="country" name="country" required>
+                    <option value="">Select your country</option>
+                    <option value="Kenya">Kenya</option>
+                    <option value="Tanzania">Tanzania</option>
+                    <option value="South Africa">South Africa</option>
+                    <option value="Nigeria">Nigeria</option>
+                </select>
+                <br><br>
+                
+                
+                <!-- Radio Buttons (Gender Selection) -->
+                <label>Gender:</label>
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="male">Male</label>
+                
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+                
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label>
+                <br><br>
+
+                <!--Checkboxes-->
+                <label>Interests:</label>
+                <input type="checkbox" id="singing" name="interests" value="singing">
+                <label for="singing">Singing</label>
+                <input type="checkbox" id="Technology" name="interests" value="techie">
+                <label for="techie">Technology</label>
+                <input type="checkbox" id="product management" name="interests" value="product management">
+                <label for="product management">Product Management</label>
+                <input type="checkbox" id="travelling" name="interests" value="travelling">
+                <label for="travelling">Travelling</label>
+
+                <!--Submit Button-->
+                <button type ="submit">Register</button>
+        
+            </form>
+            <!--End of Registration Form-->
+    </body>
+</html>
